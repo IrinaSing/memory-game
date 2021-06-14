@@ -13,9 +13,11 @@
 <!-- BEGIN TOC -->
 
 - handlers
+  - [initBoard.js](#srchandlersinitBoardjs)
 - init
   - [index.js](#srcinitindexjs)
 - listeners
+  - [new-game.js](#srclistenersnew-gamejs)
 - logic
 - procedures
 - [data.js](#srcdatajs)
@@ -27,6 +29,10 @@
 ---
 
 # /handlers
+
+<details><summary><a href="../src/handlers/initBoard.js" id="srchandlersinitBoardjs">src/handlers/initBoard.js</a></summary>
+
+</details>
 
 ---
 
@@ -47,6 +53,10 @@
 ---
 
 # /listeners
+
+<details><summary><a href="../src/listeners/new-game.js" id="srclistenersnew-gamejs">src/listeners/new-game.js</a></summary>
+
+</details>
 
 ---
 

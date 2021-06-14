@@ -14,10 +14,12 @@
 
 - handlers
   - [initBoard.js](#srchandlersinitBoardjs)
+  - [show-number.js](#srchandlersshow-numberjs)
 - init
   - [index.js](#srcinitindexjs)
 - listeners
   - [new-game.js](#srclistenersnew-gamejs)
+  - [sneak-peek.js](#srclistenerssneak-peekjs)
 - logic
 - procedures
 - [data.js](#srcdatajs)
@@ -31,6 +33,10 @@
 # /handlers
 
 <details><summary><a href="../src/handlers/initBoard.js" id="srchandlersinitBoardjs">src/handlers/initBoard.js</a></summary>
+
+</details>
+
+<details><summary><a href="../src/handlers/show-number.js" id="srchandlersshow-numberjs">src/handlers/show-number.js</a></summary>
 
 </details>
 
@@ -55,6 +61,10 @@
 # /listeners
 
 <details><summary><a href="../src/listeners/new-game.js" id="srclistenersnew-gamejs">src/listeners/new-game.js</a></summary>
+
+</details>
+
+<details><summary><a href="../src/listeners/sneak-peek.js" id="srclistenerssneak-peekjs">src/listeners/sneak-peek.js</a></summary>
 
 </details>
 

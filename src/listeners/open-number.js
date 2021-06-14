@@ -2,4 +2,4 @@ import { openNumber } from "../handlers/open-number.js";
 
 const cell = document.getElementById("tiles");
 
-cell.addEventListener("click", showNumber);
+cell.addEventListener("click", openNumber);

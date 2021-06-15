@@ -1,6 +1,6 @@
 export const openNumber = (event) => {
   const targetCell = event.target;
-  if (targetCell.nodeName === "TD" && targetCell.className === "hidden") {
+  if (targetCell.nodeName === "TD" && targetCell.dataset.selected === "no") {
     targetCell.dataset.selected = "yes";
     targetCell.className = "visible";
   } else if (
@@ -11,9 +11,3 @@ export const openNumber = (event) => {
     targetCell.className = "hidden";
   }
 };
-
-/*export const openedCells = document.querySelectorAll("td[data-selected='no']");
-[...openedCells].forEach((tdcell) =>
-  console.log(tdcell.getAttribute("data-selected='no'"))
-);
-*/

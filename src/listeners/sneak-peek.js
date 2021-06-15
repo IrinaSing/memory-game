@@ -1,5 +1,5 @@
 import { showNumber } from "../handlers/show-number.js";
-import { hideNumber } from "../handlers/show-number.js";
+import { hideNumber } from "../handlers/hide-number.js";
 
 const cell = document.getElementById("tiles");
 

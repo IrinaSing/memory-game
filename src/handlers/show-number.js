@@ -1,9 +1,18 @@
 export const showNumber = (event) => {
   const targetCell = event.target;
-  if (targetCell.className === "hidden") {
+
+  if (targetCell.nodeName === "TD" && targetCell.dataset.selected === "no") {
     targetCell.className = "visible";
-    event.stopPropagation();
-  } else {
-    targetCell.className = "hidden";
-  }
+};
+
+export const hideNumber = (event) => {
+  const targetCell = event.target;
+
+if (
+  targetCell.className === "visible" &&
+  targetCell.dataset.selected === "no"
+) {
+  targetCell.className = "hidden";
+}
+
 };
